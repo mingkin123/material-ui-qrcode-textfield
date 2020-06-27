@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'material-ui-qrcode-input'
-import 'material-ui-qrcode-input/dist/index.css'
+import QrcodeTextField from 'material-ui-qrcode-textfield'
+import 'material-ui-qrcode-textfield/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  const [value, setValue] = React.useState();
+  const onChange = (event) => {
+    const data = typeof event === 'object' && typeof event.target === 'object' ? event.target.value : event;
+    setValue(data);
+  };
+  return <QrcodeTextField label="Qrcode" value={value} onChange={onChange} />
 }
 
 export default App

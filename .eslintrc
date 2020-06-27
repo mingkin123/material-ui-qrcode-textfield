@@ -23,11 +23,13 @@
     }
   },
   "rules": {
+    "comma-dangle": ["error", "only-multiline"],
     "space-before-function-paren": 0,
     "react/prop-types": 0,
     "react/jsx-handler-names": 0,
     "react/jsx-fragments": 0,
     "react/no-unused-prop-types": 0,
+    "semi": ["error", "always"],
     "import/export": 0
   }
 }

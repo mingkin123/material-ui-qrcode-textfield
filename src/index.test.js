@@ -1,7 +1,7 @@
-import { ExampleComponent } from '.'
+import QrcodeTextField from '.';
 
-describe('ExampleComponent', () => {
+describe('QrcodeTextField', () => {
   it('is truthy', () => {
-    expect(ExampleComponent).toBeTruthy()
-  })
-})
+    expect(QrcodeTextField).toBeTruthy();
+  });
+});

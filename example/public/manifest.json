@@ -1,6 +1,6 @@
 {
-  "short_name": "material-ui-qrcode-input",
-  "name": "material-ui-qrcode-input",
+  "short_name": "material-ui-qrcode-textfield",
+  "name": "material-ui-qrcode-textfield",
   "icons": [
     {
       "src": "favicon.ico",

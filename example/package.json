@@ -1,5 +1,5 @@
 {
-  "name": "material-ui-qrcode-input-example",
+  "name": "material-ui-qrcode-textfield-example",
   "homepage": ".",
   "version": "0.0.0",
   "private": true,
@@ -10,10 +10,13 @@
     "eject": "node ../node_modules/react-scripts/bin/react-scripts.js eject"
   },
   "dependencies": {
+    "@material-ui/core": "^4.10.2",
+    "@material-ui/icons": "^4.9.1",
     "react": "link:../node_modules/react",
     "react-dom": "link:../node_modules/react-dom",
+    "react-qr-reader": "^2.2.1",
     "react-scripts": "link:../node_modules/react-scripts",
-    "material-ui-qrcode-input": "link:.."
+    "material-ui-qrcode-textfield": "link:.."
   },
   "devDependencies": {
     "@babel/plugin-syntax-object-rest-spread": "^7.8.3"
