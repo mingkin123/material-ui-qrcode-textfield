@@ -1,6 +1,6 @@
 {
   "name": "material-ui-qrcode-textfield",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Qrcode scanner function for Material-UI TextField",
   "author": "mingkin123",
   "license": "MIT",

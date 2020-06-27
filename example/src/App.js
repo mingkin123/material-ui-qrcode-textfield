@@ -1,7 +1,5 @@
-import React from 'react'
-
-import QrcodeTextField from 'material-ui-qrcode-textfield'
-import 'material-ui-qrcode-textfield/dist/index.css'
+import React from 'react';
+import QrcodeTextField from 'material-ui-qrcode-textfield';
 
 const App = () => {
   const [value, setValue] = React.useState();
@@ -9,7 +7,7 @@ const App = () => {
     const data = typeof event === 'object' && typeof event.target === 'object' ? event.target.value : event;
     setValue(data);
   };
-  return <QrcodeTextField label="Qrcode" value={value} onChange={onChange} />
+  return <QrcodeTextField label="Qrcode" value={value} onChange={onChange} />;
 }
 
-export default App
+export default App;
